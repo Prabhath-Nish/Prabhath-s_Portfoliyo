@@ -16,7 +16,7 @@ type Repo = {
     updated_at: string;
 };
 
-const GITHUB_USER = "Prabhath3";
+const GITHUB_USER = "Prabhath-Nish";
 
 function getProjectImage(repo: Repo) {
     const text = `${repo.name} ${repo.description ?? ""} ${
